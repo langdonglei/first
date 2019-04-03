@@ -1,0 +1,14 @@
+.mtip { margin-left: 5px;; color: red; line-height: 40px; font-size: 14px; }
+
+.mysubmit { margin: 40px }
+
+.ue { padding: 0 50px }
+
+/*修改产品 删除图片*/
+.imgbox div { width: 68px; height: 68px; position: relative; float: left; margin: 5px; }
+
+.imgbox div img { width: 68px; height: 68px; position: absolute; display: block; z-index: 5; }
+
+.imgbox div img.mask { position: absolute; right: 0px; z-index: 10; width: 30px; height: 30px; }
+
+.imgbox div img.nomask { width: 30px; height: 30px; position: absolute; right: 0px; z-index: 0; }

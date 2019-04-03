@@ -1,0 +1,15 @@
+.my_product_box{
+    padding: 10px;
+    display:inline-block;
+    width:147px;
+    height:100px;
+}
+.my_product_box img{
+    width:147px;
+    height:80px;
+}
+.my_product_box span{
+    display: block;
+    line-height: 20px;
+    text-align: center;
+}

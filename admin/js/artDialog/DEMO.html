@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <script src="artDialog.js?skin=blue"></script>
+    <script src="artMore.js"></script>
+</head>
+<body>
+<button id="1">tips</button>
+<button id="2">alert</button>
+<button id="3">confirm</button>
+<button id="4">prompt</button>
+<button id="5">notice</button>
+<script>
+    document.getElementById('1').onclick = function () {
+        art.dialog.tips('提示信息', 3);
+    };
+    document.getElementById('2').onclick = function () {
+        art.dialog.alert('弹窗');
+    };
+    document.getElementById('3').onclick = function () {
+        art.dialog.confirm('是不是要去百度？', function () {
+            art.dialog.tips('还是别去了');
+        }, function () {
+            art.dialog.tips('不去就对了');
+        });
+    };
+    document.getElementById('4').onclick = function () {
+        art.dialog.prompt('请输入网址', function (val) {
+            art.dialog.tips(val);
+        }, 'http://');
+    };
+    document.getElementById('5').onclick = function () {
+        art.dialog.notice({
+            title: '右下角',
+            width: 220,// 必须指定一个像素宽度值或者百分比，否则浏览器窗口改变可能导致artDialog收缩
+            content: '您IQ卡余额不足10元，请及时充值',
+            icon: 'face-sad',
+            time: 5
+        });
+    };
+</script>
+</body>
+</html>

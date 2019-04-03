@@ -1,0 +1,11 @@
+.my_pos_nav {
+    margin:-15px -20px 0px;
+    padding-left:35px;
+    background:linear-gradient(to right, rgba(0, 160, 233, 0.69), rgba(0, 160, 233, 0.37));
+}
+.my_pos_nav span {
+    color: #6771ee;
+}
+.my_pos_nav a {
+    color: #6c4f22;
+}

@@ -1,0 +1,8 @@
+.picScroll-top{ margin:0 auto;  width:210px;  overflow:hidden; position:relative;}
+.picScroll-top .bd2{ padding:10px;   }
+.picScroll-top .bd2 ul{ overflow:hidden; zoom:1; }
+.picScroll-top .bd2 ul li{ text-align:center; zoom:1; }
+.picScroll-top .bd2 ul li .pic{ text-align:center; }
+.picScroll-top .bd2 ul li .pic img{ width:180px; height:90px; display:block;  padding:2px; border:1px solid #ccc; }
+.picScroll-top .bd2 ul li .pic a:hover img{ border-color:#999;  }
+.picScroll-top .bd2 ul li .title{ line-height:24px; }

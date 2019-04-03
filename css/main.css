@@ -1,0 +1,220 @@
+/******************************首页content_top******************************/
+.shouye_top { width: 775px; height: 463px; }
+/*产品推荐*/
+.chanpintuijian {
+    float: left;
+    width: 548px;
+    height: 478px;
+    overflow: hidden;
+}
+.chanpintuijian_title {
+    width: 548px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 3.5em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: url(../img/title_bg.jpg);
+}
+.chanpintuijian_title img {
+    float: right;
+    width: 84px;
+    height: 33px;
+}
+.chanpintuijian_content {
+    padding: 10px;
+    width: 526px;
+    height: 409px;
+    border-left: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    background: #FFFFFF;
+}
+/*企业简介*/
+.qiyejianjie {
+    float: right;
+    width: 211px;
+    height: 478px;
+}
+.qiyejianjie_title {
+    width: 211px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 3.5em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: url(../img/title_bg.jpg);
+}
+.qiyejianjie_title img {
+    float: right;
+    width: 84px;
+    height: 33px;
+}
+.qiyejianjie_content {
+    padding: 10px;
+    width: 189px;
+    height: 409px;
+    text-indent: 2em;
+    border-left: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    background: #FFFFFF;
+}
+.qiyejianjie_content img {
+    margin: 43px 38px;
+}
+/******************************首页content_middle******************************/
+.shouye_middle {
+    width: 775px;
+    height: 405px;
+    margin-top: 15px;
+}
+/*公司动态*/
+.gongsidongtai {
+    float: left;
+    width: 532px;
+    height: 405px;
+}
+.gongsidongtai_title {
+    width: 548px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 3.5em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: url(../img/title_bg.jpg);
+}
+.gongsidongtai_title img {
+    float: right;
+    width: 84px;
+    height: 33px;
+}
+.gongsidongtai_content {
+    padding: 10px;
+    width: 526px;
+    height: 351px;
+    border-left: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    background: #FFFFFF;
+}
+.gongsidongtai_content ul {
+    margin: 0px 10px 10px;
+}
+.gongsidongtai_content span {
+    float: right;
+    width: 80px;
+    height: 29px;
+    line-height: 29px;
+    text-align: right;
+    overflow: hidden;
+}
+.gongsidongtai_content a {
+    display: block;
+    width: 400px;
+    height: 29px;
+    line-height: 29px;
+    text-align: left;
+    text-indent: 1.5em;
+    letter-spacing: 1px;
+    background: url(../img/dot.jpg) no-repeat 0 center;
+    overflow: hidden;
+}
+/*联系我们*/
+.lianxiwomen {
+    float: right;
+    width: 211px;
+    height: 405px;
+}
+.lianxiwomen_title {
+    width: 211px;
+    height: 33px;
+    line-height: 33px;
+    text-indent: 3.5em;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: url(../img/title_bg.jpg);
+}
+.lianxiwomen_title img {
+    float: right;
+    width: 84px;
+    height: 33px;
+}
+.lianxiwomen_content {
+    padding: 10px;
+    width: 189px; /*766 with 100% -1-1*/
+    height: 351px; /*374 with 100% -33-1*/
+    border-left: 1px solid #D0D0D0; /*with w*/
+    border-right: 1px solid #D0D0D0; /*with w*/
+    border-bottom: 1px solid #D0D0D0; /*with h*/
+    background: #FFFFFF;
+    text-align: center;
+}
+.lianxiwomen_content img {
+    width: 150px;
+    margin: 20px 20px;
+}
+/******************************首页content_bottom******************************/
+/******************************企业简介******************************/
+/******************************联系我们******************************/
+.jianjie p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+.jianjie b {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+/******************************企业资质******************************/
+.zizhi_box {
+    display: inline-block;
+    overflow: hidden;
+}
+.zizhi_box img {
+    margin-right: 21px;
+    width: 120px;
+    height: 170px;
+}
+.zizhi_box span {
+    display: block;
+    text-align: center;
+}
+/******************************新闻资讯******************************/
+/******************************成功案例******************************/
+/******************************技术支持******************************/
+.xinwen li {
+    height: 30px;
+    background: url(../img/dot.jpg) no-repeat 5px 15px;
+    border-bottom: 1px dashed red;
+}
+.xinwen span {
+    float: right;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 42px;
+    font-size: 16px;
+}
+.xinwen a {
+    float: left;
+    display: inline-block;
+    width: 600px;
+    height: 30px;
+    line-height: 42px;
+    text-indent: 2em;
+    font-size: 16px;
+}
+/******************************产品中心******************************/
+.chanpin_box { display: inline-block; overflow: hidden; }
+.chanpin_box img { margin-right: 29px; width: 147px; height: 80px; }
+.chanpin_box span { display: block; text-align: center; }
+/******************************客户留言******************************/
+.liuyan form { margin-left: 80px; }
+.liuyan td { font-size: 14px; font-weight: 800; }
+.liuyan i { color: red; }
+/******************************详细信息******************************/
+.pos_nav span { font-weight: 800; }
+.news_head h1 { text-align: center; font-size: 26px; }
+.fb { text-align: center; }
+.new_pic img { width: 724px; }
+.new_content p { text-indent: 2em; font-size: 14px; letter-spacing: 1px; }

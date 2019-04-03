@@ -1,0 +1,25 @@
+.news_list ul {
+    border: 1px solid #000;
+}
+.news_list li {
+    height:30px;
+    background: url(../img/dot.jpg) no-repeat 5px 15px;
+    border-bottom: 1px dashed #b9b9c1;
+}
+.news_list span{
+    float:right;
+    display: inline-block;
+    width:100px;
+    height:30px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.news_list a {
+    float:left;
+    display: inline-block;
+    width:600px;
+    height:30px;
+    line-height: 40px;
+    text-indent: 2em;
+    font-size: 16px;
+}

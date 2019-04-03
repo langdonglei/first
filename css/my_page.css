@@ -1,0 +1,21 @@
+.my_page {
+    text-align: center;
+}
+
+.my_page a{
+    text-decoration: none;
+    padding:5px 10px;
+    border:1px solid #cdcdcd;
+    display: inline-block;
+    min-width: 15px;
+    margin:2px 2px;
+}
+.my_page span{
+    text-decoration: none;
+    padding:5px 10px;
+    border:1px solid #cdcdcd;
+    background-color: #BEC1C0;
+    display: inline-block;
+    min-width: 15px;
+    margin:2px 2px;
+}

@@ -1,0 +1,24 @@
+body,div,ul,li,span,a,p { padding: 0; margin: 0; font: 12px/24px "Microsoft Yahei"; text-decoration: none; color: #444444; }
+img { border: 0; }
+body { background: #EAEAEA; }
+ul { list-style: none; }
+a:hover { color: #C54A6C; }
+.w { width: 1000px; height: auto; margin: 0 auto; }
+.fl { float: left; }
+.fr { float: right; }
+.cf { width: 100%; clear: both; }
+.bg { background: #0371A5; }
+.btnhover { background: #317EF3; border-bottom: 1px solid #2868C8; box-shadow: 1px 1px 1px #CCCCCC; }
+.btn { cursor: pointer; border: 0; width: 100px; height: 36px; color: #FFFFFF; font-size: 15px; letter-spacing: 1px; background: #3385FF; border-bottom: 1px solid #2D78F4; outline: medium; -webkit-appearance: none; -webkit-border-radius: 0; }
+.s2_btn {
+    border: 1px solid #000000;
+    width: 100px;
+    height: 36px;
+    color: #751D20;
+    font-size: 15px;
+    letter-spacing: 1px;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
